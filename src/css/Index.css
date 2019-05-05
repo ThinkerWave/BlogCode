@@ -1,0 +1,55 @@
+.tags{
+  bottom:0;
+  left:0;
+border-color: gray;
+border-left: 111cm
+}
+.blog-post {
+    margin : 10px;
+    margin-top : 10px;
+    padding-top: 10px;
+  }
+.blog-etc{
+    font-size: 13px;
+    font-style: grey;
+}
+.post-category{
+    margin-right: 10px;
+}
+
+.delete-btn{
+  bottom:0;
+  left:0;
+border-color: gray;
+border-left: 111cm
+}
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .hover-underline-animation{
+    display:inline-block;
+    position:relative;
+    color:#0087ca;
+  }
+  .hover-underline-animation::after{
+        content:'';
+        position:absolute;
+        width:100%;
+        transform:scaleX(0);
+        height:2px;
+        bottom:0;
+        left:0;
+        background-color:#0087ca;
+        transform-origin:bottom right;
+        transition:transform 0.25s ease-out;
+    }
+  .hover-underline-animation:hover::after{
+        transform:scaleX(1);
+        transform-origin:bottom left;
+    }

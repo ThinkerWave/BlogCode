@@ -1,0 +1,92 @@
+.custom-navbar
+{
+   background-color: transparent;
+}
+
+.nav-link
+{
+ color: black;
+ 
+ font-family:'BMHANNAPro';
+}
+
+.form-inline
+{
+   float: right;
+}
+
+.center{
+   float: left;
+      position: relative;
+      left: -50%;
+      font-family: 'Nanum Brush Script', cursive;
+    
+   font-weight: bold;
+}
+.main-container {
+   float: left;
+   position: absolute;
+   left: 55%;
+   font-family: 'Nanum Brush Script', cursive;
+   
+   font-weight: bold;
+ }
+ .main-container-right {
+   float: right;
+   font-family:'BMHANNAPro';
+   vertical-align: middle;
+   margin-top:25px;
+}
+ .search-box {
+   background-size: 2px;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background:transparent;
+   height: 40px;
+   border-radius: 40px;
+  }
+  
+  .search-box:hover > .search-txt {
+   width: 240px;
+   padding: 0 0px;
+  }
+  
+  .search-box:hover > .search-btn {
+   background: transparent;
+   color: black;
+  }
+  
+  .search-btn {
+   width: 40px;
+   height: 50px;
+   background: transparent;
+   display: flex;
+   justify-content: center;
+   vertical-align: middle;
+   align-items: center;
+   transition: 0.4s;
+   color: white;
+   cursor: pointer;
+  }
+  
+  .search-btn > i {
+   font-size: 30px;
+  }
+  
+  .search-txt {
+   border: black;
+   background: none;
+   outline: none;
+   float: left;
+   padding: 0;
+   color: black;
+   font-size: 16px;
+   transition: 0.4s;
+   line-height: 40px;
+   width: 0px;
+   border-bottom: 1px solid black;
+  }
+
+@font-face{font-family:'BMHANNAPro'; src:url('../fonts/BMHANNAPro.ttf')}
